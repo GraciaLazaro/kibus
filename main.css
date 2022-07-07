@@ -1,0 +1,318 @@
+body{
+    background-image: url(img/background.jpg);
+    background-size: 75%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0 auto;
+    flex-direction: column;
+ }
+
+
+ img .logo{
+    width:30%; 
+    margin-left: 100px;
+}
+.logo{
+    margin: 70px;
+
+}
+
+p{
+    width: 70%;
+    margin-left: 70px;
+    font-size: 25px;
+}
+
+h1 {
+    width:70% ;
+    margin-left: 75px;
+    font-size:65px;
+    font-weight:900;
+}
+
+
+.cabecera-img{
+    display:flex;
+    flex-direction:row; 
+    margin-right: 50px;
+}
+
+img .imagen{
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+.cabecera{
+    flex-directon:column;
+}
+
+.button-orange {
+color:white;
+font-size: 12px;
+font-weight: 900;
+text-transform: uppercase;
+letter-spacing: .5px;
+background-color: #FC5B2B;
+padding: 12px;
+margin-left: 75px;
+border-radius: 20px;
+border-style: none;
+
+}
+
+
+.button-white {
+    color:#FC5B2B;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    background-color: white;
+    padding: 12px;
+    margin-left: 60px;
+    border-radius: 20px;
+   
+    
+    border-color: #FC5B2B;
+    
+    }
+
+
+
+   main {
+       background-color: bisque;
+       height: 500px;
+   }
+
+   .tarjeta{
+       flex-direction:row;
+       display:flex;
+       justify-content: space-around;
+       padding: 20px;
+       margin:100px;
+       border-radius: 20px;
+       box-shadow: 0px 14px 37px 19px #d2d2d2;    
+   }
+
+   .h6{
+       margin-top: 15px;
+       display: flex;
+       justify-content: center;
+   }
+
+  .tu-receta, .cerdo-calabaza, .pollo-pimiento, .salmon-arroz{
+       display:flex;
+       flex-direction:column;
+       align-items: center;
+       justify-content: center;
+      
+  }
+
+ 
+
+  .tureceta-button{
+       padding: 10px 15px;
+       border-radius: 15px;
+       border-style: none;
+       color: white;
+       background-color: #d7d7d7;
+       margin: 12px;
+   }
+  
+   h4{
+       display:flex;
+       color: #7E7E7E;
+       font-weight: 200;
+       justify-content: center;
+       width: 90px;
+       
+   }
+
+
+ .maquina img{
+     width: 35px;
+     margin: 20px;
+     
+ }
+
+ .maquina li{
+     margin: 20px;
+     list-style: none;
+     
+ }
+
+   span {
+       align-items: center;
+       justify-content: center;
+   }
+
+
+   .slider-parrafo{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+       margin: 120px;
+       width: 80%;
+       padding: 60px;
+
+   }
+
+   p .parrafo {
+       width:30%;
+       margin: 20px;
+   }
+
+
+   .maquina-fotos{
+       display:flex;
+       flex-direction:row;
+       margin: 50px;
+   }
+
+
+
+   .carousel-parrafo{
+       display:flex; 
+       flex-direction:row;
+       margin: 100px;
+       
+   }
+
+   .carousel-dogs{
+       position:absolute;
+       z-index: 1;
+       margin-top: 70px;
+   }
+   .carousel-dogs img{
+       border-radius: 25px;
+   }
+
+   .ellipse{
+       position:absolute;
+       z-index: -1;
+   }
+
+   .maquinaimg {
+    position:absolute;
+    z-index: -1;
+   
+
+   }
+
+
+   .movilimg{
+    position:absolute;
+    z-index: 1;
+    margin-left: 300px;
+    margin-top: 50px;
+
+   }
+
+   .maquina-movil img{
+    display: flex;
+   
+ 
+ 
+   }
+
+
+  .maquina-iconos li{
+      list-style: none;
+      margin-right: 300px;
+
+  }
+
+  .maquina-iconos img{
+      margin: 20px;
+      width: 25px;
+
+
+      
+  }
+
+   .parrafo h2{
+      
+       display:flex;
+       flex-direction: row;
+       align-items: center;
+       margin-bottom: 50px;
+       
+       
+   }
+   
+   .tarjeta h5 {
+       margin: 10px, 50px, 40px, 20px;
+       display:flex;
+       flex-direction: row;
+       align-items: center;
+   }
+
+   .tarjeta button{
+       margin-top: 0px;
+   }
+   
+
+
+
+
+  
+   footer{
+       background-color: black;
+       color:white;
+       display:flex;
+       flex-direction: row;
+       height: 500px;
+       justify-content: space-evenly;
+       padding: 30px;
+   }
+
+   .footer-pack{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.footer-3 img{
+
+    margin: 15px;
+}
+.iconos-pago {
+       display: flex;
+       flex-direction: row;
+   }
+
+.footer-3{
+       display: flex;
+       flex-direction: row;
+       
+   }
+   
+.footer-2 ul{
+    list-style: none;
+    margin: 15px;
+}
+
+p{
+    font-size: smaller;
+}
+
+.footer-1{
+    width: 250px;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
